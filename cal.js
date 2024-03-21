@@ -19,6 +19,6 @@ function calculat() {
   try {
     Result.value = eval(Result.value);
   } catch (error) {
-    Result.value = "error";
+    Result.value = "ERROR";
   }
 }
